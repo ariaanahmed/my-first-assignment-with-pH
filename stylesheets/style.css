@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header, logo and navigation section */
+
+header{
+    background-image: url("/images/banner/banner2.png");
+    background-position: cover;
+    height: 100vh;
+
+}
+
+.logo{
+    color: #0A93E9;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 5px 120px;
+    text-transform: uppercase;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    margin: auto 120px;
+}
+
+nav ul li{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+/* banner-text */
+
+.banner-content{
+    width: 30%;
+    padding: 10px;
+    float: right;
+    text-align: right;
+    margin: 190px 200px 0 200px;
+}
+
+.banner-title{
+    font-size: 35px;
+    color: #151414;
+    margin: 10px 0px;
+}
+.banner-description{
+    color: #444343;
+    margin: 10px 0px;
+}
+
+.btn-primary{
+    background-color: #F15B22;
+    color: white;
+    border: none;
+    padding: 10px 5px;
+    text-transform: capitalize;
+}
+
+/* failure-section */
+
+.failure-section{
+    display: flex;
+    padding-top: 170px;
+    margin: 0 200px;
+    gap: 40px;
+}
+
+.failure-sec-img img{
+    width: 450px;
+}
+
+.failure-content{
+    margin-top: 200px;
+}
