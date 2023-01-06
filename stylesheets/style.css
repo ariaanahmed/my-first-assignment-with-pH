@@ -7,7 +7,7 @@
 /* header, logo and navigation section */
 
 header{
-    background-image: url("/images/banner/banner2.png");
+    background-image: url("images/banner/banner2.png");
     background-position: cover;
     height: 100vh;
 
