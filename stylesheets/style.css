@@ -147,18 +147,19 @@ nav ul li a{
 /* linear-gradient */
 
 .linear-gradient{
-    margin: 120px 200px 0 200px;
     background-image:linear-gradient(to left, rgba(255, 246, 256, 0.52), rgba(41, 38, 235, 0.73)), url("../images/gradient.jpg");
-    height: 30vh;
+    height: 20vh;
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 50%;
+    display: block;
+    margin: 120px auto;
 }
 
 .gradient-title{
     color: white;
     font-size: 35px;
     font-weight: 600;
-    padding-top: 50px;
     margin-bottom: 5px;
 }
 
@@ -169,4 +170,77 @@ nav ul li a{
     padding: 10px 18px;
     border-radius: 5px;
     font-weight: 700;
+}
+
+/* contact-section */
+.contact-section{
+    display: flex;
+    gap: 40px;
+    margin: 120px 200px 0 200px;
+    background-color: #151414;
+}
+
+.social-media{
+    width: 40%;
+    padding: 40px 90px;
+}
+
+.social-title{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.social-description{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 13px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.social-media a img{
+    width: 25px;
+}
+
+.subscribe-title{
+    color: white;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+input[type="email"] {
+    width: 213px;
+    height: 25px;
+    border: 0;
+    padding: 3px 16px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+input[type="submit"]{
+    background-color: white;
+    color: #F15B22;
+    height: 31px;
+    border: 0;
+    padding: 3px 14px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+/* footer section */
+
+footer{
+    background-color: rgb(216, 6, 6);
+    margin: 0px 200px 0px 200px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+
 }
